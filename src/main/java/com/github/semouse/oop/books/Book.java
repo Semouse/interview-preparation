@@ -6,14 +6,14 @@ import java.util.Objects;
 
 public class Book {
 
-    private int id;
-    private String name;
-    private Author[] authors;
-    private Publisher publisher;
-    private int publishingYear;
-    private int amountOfPages;
-    private BigDecimal price;
-    private CoverType coverType;
+    private final int id;
+    private final String name;
+    private final Author[] authors;
+    private final Publisher publisher;
+    private final int publishingYear;
+    private final int amountOfPages;
+    private final BigDecimal price;
+    private final CoverType coverType;
 
     public Book(int id, String name, Author[] authors, Publisher publisher, int publishingYear,
         int amountOfPages, BigDecimal price, CoverType coverType) {
